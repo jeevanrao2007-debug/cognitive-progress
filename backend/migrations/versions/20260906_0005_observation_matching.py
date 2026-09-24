@@ -12,7 +12,14 @@ depends_on = None
 
 
 def upgrade() -> None:
-    outcome = postgresql.ENUM("MATCHED", "AMBIGUOUS", "NEEDS_REVIEW", "NO_MATCH", name="observation_match_outcome")
+    outcome = postgresql.ENUM(
+        "MATCHED",
+        "AMBIGUOUS",
+        "NEEDS_REVIEW",
+        "NO_MATCH",
+        name="observation_match_outcome",
+        create_type=False,
+    )
     outcome.create(op.get_bind(), checkfirst=True)
     op.create_table(
         "observation_match_results",
