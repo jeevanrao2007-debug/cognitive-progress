@@ -1,0 +1,9 @@
+source_timestamp,activity_description,status,progress,discipline,location,extraction_confidence,raw_text
+2026-09-25T17:00:00+05:30,Foundation excavation at pipe rack,completed,100,Civil,Unit 3 pipe rack,0.98,CIV001 excavation certified complete
+2026-09-25T17:00:00+05:30,Pipe rack pedestal casting,in_progress,50,Civil,Unit 3 pipe rack,0.97,CIV002 pedestal casting recorded at 50 percent
+2026-09-25T17:00:00+05:30,Line 24 installation,in_progress,80,Piping,Unit 3,0.98,PIP001 Line 24 installation equals 80 percent
+2026-09-25T17:00:00+05:30,24 inch line welding,in_progress,25,Piping,Unit 3,0.97,PIP002 welding progress 25 percent
+2026-09-25T17:00:00+05:30,Cable tray erection from MCC 3,in_progress,70,Electrical,Unit 3,0.96,ELE001 tray route reported 70 percent
+2026-09-25T17:00:00+05:30,415V feeder cable pull,not_started,0,Electrical,Unit 3,0.97,ELE002 cable pulling not started
+2026-09-25T17:00:00+05:30,PT 301 field transmitter installation,not_started,0,Instrumentation,Unit 3 Pump P-301,0.96,INS001 transmitter mounting pending
+2026-09-25T17:00:00+05:30,PT 301 DCS loop check,not_started,0,Instrumentation,Control room,0.96,INS002 loop check not started

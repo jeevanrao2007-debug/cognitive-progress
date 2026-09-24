@@ -1,0 +1,1 @@
+OBSERVATION|2026-09-06T08:00:00Z|Piping|Unit 3|completed|100|24 inch line erection completed in Unit 3.|0.98

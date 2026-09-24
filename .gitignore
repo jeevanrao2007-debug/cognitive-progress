@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend builds
+dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# Environment / secrets
+.env
+.env.*
+*.env
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local databases / runtime artifacts
+*.db
+*.sqlite
+*.sqlite3
+backend/data/imports/*
+!backend/data/imports/.gitkeep
+
+# Coverage / test artifacts
+.coverage
+htmlcov/
+coverage/

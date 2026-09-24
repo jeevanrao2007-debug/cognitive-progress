@@ -1,0 +1,1 @@
+OBSERVATION|2026-09-11T14:00:00Z|Piping|Unit 3|in_progress|40|Hydrotest preparation delayed due to pending NDT clearance.|0.96

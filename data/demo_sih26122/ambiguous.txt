@@ -1,0 +1,1 @@
+OBSERVATION|2026-09-06T12:00:00Z|Electrical|Unit 2|in_progress|45|Cable tray installation underway.|0.94

@@ -1,0 +1,11 @@
+external_activity_id,discipline,description,location,planned_start,planned_finish,predecessors,parent_activity_id,level,status
+CIV001,Civil,Foundation excavation,Unit 1,2026-08-01,2026-08-20,,,5,in_progress
+CIV002,Civil,Concrete pour Unit 1,Unit 1,2026-08-21,2026-09-10,CIV001,CIV001,6,not_started
+PIP001,Piping,Erect Line 24-XX,Unit 3,2026-08-25,2026-09-20,CIV002,,6,not_started
+PIP002,Piping,Valve installation,Unit 3,2026-09-01,2026-09-15,PIP001,,6,not_started
+PIP003,Piping,Hydrotest preparation,Unit 3,2026-09-10,2026-09-20,PIP002,,6,not_started
+PIP004,Piping,Hydrotest Line 18-AA,Unit 3,2026-09-15,2026-09-25,PIP003,,6,not_started
+ELEC001,Electrical,Install transformer foundation,Substation,2026-08-20,2026-09-05,,,6,not_started
+ELEC002,Electrical,Cable tray installation,Unit 2,2026-09-01,2026-09-18,,,6,not_started
+ELEC003,Electrical,Cable tray installation,Unit 2,2026-09-01,2026-09-18,,,6,not_started
+INST001,Instrumentation,Instrument junction box installation,Unit 4,2026-09-05,2026-09-28,,,6,not_started

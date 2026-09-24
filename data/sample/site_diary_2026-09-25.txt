@@ -1,0 +1,11 @@
+Synthetic Oil & Gas Infrastructure Project (Demo) - Site Diary
+Diary date: 2026-09-25
+
+OBSERVATION|2026-09-25T08:30:00+05:30|Civil|Unit 3 pipe rack|completed|100|Foundation excavation signed off by civil inspector|0.95
+OBSERVATION|2026-09-25T09:00:00+05:30|Civil|Unit 3 pipe rack|in_progress|45|Pedestal concrete works continue at east rack bay|0.86
+OBSERVATION|2026-09-25T10:30:00+05:30|Piping|Unit 3|in_progress|80|Erection ongoing for 24 inch line at Unit 3; final spool alignment pending|0.90
+OBSERVATION|2026-09-25T11:00:00+05:30|Piping|Unit 3|in_progress|25|First root pass welding under progress on 24 inch header|0.91
+OBSERVATION|2026-09-25T12:00:00+05:30|Electrical|Unit 3|in_progress|65|MCC-3 to P-301 tray installation nearing completion|0.89
+OBSERVATION|2026-09-25T12:30:00+05:30|Electrical|Unit 3|not_started|0|415 volt cable pull held pending tray inspection|0.94
+OBSERVATION|2026-09-25T14:30:00+05:30|Instrumentation|Unit 3 Pump P-301|not_started|0|PT-301 mounting work remains pending|0.90
+OBSERVATION|2026-09-25T15:30:00+05:30|Instrumentation|Control room|not_started|0|No loop check activity recorded for PT-301|0.92

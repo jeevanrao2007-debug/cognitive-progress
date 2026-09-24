@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ */
+/* BASE                                                                  */
+/* ------------------------------------------------------------------ */
+:root {
+  color-scheme: light;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #F6F8FA;
+  color: #1F2328;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------ */
+/* SCROLLBAR                                                             */
+/* ------------------------------------------------------------------ */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #D0D7DE; border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: #8C959F; }
+
+/* ------------------------------------------------------------------ */
+/* UTILITY CLASSES                                                       */
+/* ------------------------------------------------------------------ */
+.card {
+  background: #FFFFFF;
+  border: 1px solid #D0D7DE;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(31,35,40,0.06);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 3px 12px rgba(31,35,40,0.10);
+  border-color: #8C959F;
+}
+
+.card-flat {
+  background: #FFFFFF;
+  border: 1px solid #D0D7DE;
+  border-radius: 12px;
+}
+
+/* Header dark theme */
+.header-dark {
+  background: #0D1117;
+  border-bottom: 1px solid #30363D;
+  color: #F0F6FC;
+}
+
+/* Badge system — guaranteed contrast */
+.badge { display: inline-flex; align-items: center; border-radius: 9999px; padding: 2px 10px; font-size: 11px; font-weight: 600; border: 1px solid transparent; }
+.badge-success { background: #DAFBE1; color: #1A7F37; border-color: #82E9A6; }
+.badge-attention { background: #FFF8C5; color: #9A6700; border-color: #EAC54F; }
+.badge-danger { background: #FFEBE9; color: #CF222E; border-color: #FF9EA0; }
+.badge-accent { background: #DFF0FF; color: #0969DA; border-color: #54AEFF; }
+.badge-default { background: #F6F8FA; color: #656D76; border-color: #D0D7DE; }
+.badge-teal { background: #CCFBF1; color: #0D4F4A; border-color: #5EEAD4; }
+
+/* Progress bar */
+.progress-bar { height: 8px; border-radius: 9999px; background: #EAEEF2; overflow: hidden; }
+.progress-bar-fill { height: 100%; border-radius: 9999px; transition: width 0.5s ease; }
+.progress-bar-fill-teal { background: linear-gradient(90deg, #0D9488, #14B8A6); }
+.progress-bar-fill-dark { background: #1F2328; }
+
+/* Subtle divider */
+.divider { border: 0; border-top: 1px solid #EAEEF2; margin: 16px 0; }
+
+/* Pipeline step highlight */
+.pipeline-step {
+  background: #FFFFFF;
+  border: 1px solid #D0D7DE;
+  border-radius: 10px;
+  transition: border-color 0.2s, background 0.2s;
+  cursor: default;
+}
+.pipeline-step:hover {
+  border-color: #0D9488;
+  background: #F0FDFA;
+}

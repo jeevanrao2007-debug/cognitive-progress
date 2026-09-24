@@ -1,0 +1,13 @@
+external_activity_id,discipline,description,location,planned_start,planned_finish,parent_activity_id,level,status
+CIV-L5-001,Civil,Civil works - Unit 3 process area,Unit 3,2026-09-01,2026-10-31,,5,in_progress
+CIV001,Civil,Excavate pipe rack foundations,Unit 3 pipe rack,2026-09-01,2026-09-10,CIV-L5-001,6,not_started
+CIV002,Civil,Cast pipe rack foundation pedestals,Unit 3 pipe rack,2026-09-11,2026-09-20,CIV-L5-001,6,not_started
+PIP-L5-001,Piping,Piping works - 24 inch transfer line,Unit 3,2026-09-15,2026-11-15,,5,not_started
+PIP001,Piping,Erect Line 24-XX,Unit 3,2026-09-15,2026-09-28,PIP-L5-001,6,not_started
+PIP002,Piping,Weld Line 24-XX,Unit 3,2026-09-20,2026-10-05,PIP-L5-001,6,not_started
+ELE-L5-001,Electrical,Electrical works - Unit 3,Unit 3,2026-09-20,2026-11-10,,5,not_started
+ELE001,Electrical,Install cable tray from MCC-3 to Pump P-301,Unit 3,2026-09-20,2026-10-02,ELE-L5-001,6,not_started
+ELE002,Electrical,Pull 415V feeder cable to Pump P-301,Unit 3,2026-10-03,2026-10-12,ELE-L5-001,6,not_started
+INS-L5-001,Instrumentation,Instrumentation works - Unit 3,Unit 3,2026-10-01,2026-11-20,,5,not_started
+INS001,Instrumentation,Install PT-301 pressure transmitter,Unit 3 Pump P-301,2026-10-01,2026-10-10,INS-L5-001,6,not_started
+INS002,Instrumentation,Loop check PT-301 to DCS,Control room,2026-10-11,2026-10-18,INS-L5-001,6,not_started

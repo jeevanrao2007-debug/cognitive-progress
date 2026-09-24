@@ -1,0 +1,1 @@
+OBSERVATION|2026-09-05T18:00:00Z|Electrical|Substation|completed|100|Transformer foundation completed and inspected.|0.99

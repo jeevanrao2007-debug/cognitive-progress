@@ -1,0 +1,1 @@
+OBSERVATION|2026-09-06T13:00:00Z|Site Services|Laydown|in_progress|10|Temporary fencing outside workfront.|0.93

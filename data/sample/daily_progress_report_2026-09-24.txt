@@ -1,0 +1,12 @@
+Synthetic Oil & Gas Infrastructure Project (Demo) - Daily Progress Report
+Report date: 2026-09-24
+Supervisor: Civil, Piping, Electrical and Instrumentation leads
+
+OBSERVATION|2026-09-24T09:00:00+05:30|Civil|Unit 3 pipe rack|completed|100|Excavation for pipe rack footings complete|0.94
+OBSERVATION|2026-09-24T09:15:00+05:30|Civil|Unit 3 pipe rack|in_progress|35|Pedestal shuttering and concrete placement under way|0.88
+OBSERVATION|2026-09-24T10:00:00+05:30|Piping|Unit 3|completed|100|24 inch line erection completed in Unit 3|0.91
+OBSERVATION|2026-09-24T16:00:00+05:30|Piping|Unit 3|in_progress|15|Welding commenced at 16:00 on 24 inch transfer spool|0.90
+OBSERVATION|2026-09-24T11:00:00+05:30|Electrical|Unit 3|in_progress|60|Tray route from MCC 3 toward P-301 is being fixed|0.87
+OBSERVATION|2026-09-24T11:30:00+05:30|Electrical|Unit 3|not_started|0|Feeder pulling to pump P-301 has not started|0.92
+OBSERVATION|2026-09-24T13:00:00+05:30|Instrumentation|Unit 3 Pump P-301|not_started|0|Pressure transmitter PT 301 installation awaits cable tray release|0.89
+OBSERVATION|2026-09-24T14:00:00+05:30|Instrumentation|Control room|not_started|0|PT 301 loop testing not started|0.93

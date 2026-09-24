@@ -1,0 +1,1 @@
+OBSERVATION|2026-09-06T17:00:00Z|Piping|Unit 3|in_progress|55|Erection ongoing.|0.96
